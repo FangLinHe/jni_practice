@@ -1,4 +1,4 @@
-package jniinpackage;
+package myjni;
 
 public class HelloJni
 {
