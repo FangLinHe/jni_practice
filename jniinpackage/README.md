@@ -2,8 +2,8 @@
 Implementation of online tutorial[https://www3.ntu.edu.sg/home/ehchua/programming/java/JavaNativeInterface.html].
 
 ## Steps
-0. Write Java code: `HelloJniCpp.java`. Functions with `native` means C/C++ implementations.
-0. Compile Java code: `$ javac HelloJniCpp.java`.  It will generate `HelloJni.class`.
+0. Write Java code: `HelloJni.java`. Functions with `native` means C/C++ implementations.
+0. Compile Java code: `$ javac HelloJni.java`.  It will generate `HelloJni.class`.
 0. Generate C header file: `$ javah HelloJni.class`.  It will generate `HelloJniCpp.h`.
 0. Write C++ implementations of functions: `HelloJniCppImpl.h` and `HelloJniCppImpl.cpp`.
 0. Implement Jni interface (in C language): `HelloJniCpp.c`.
