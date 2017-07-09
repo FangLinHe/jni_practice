@@ -3,9 +3,8 @@ Implementation of online tutorial[https://www3.ntu.edu.sg/home/ehchua/programmin
 
 ## Steps
 1. Create directory for the java package: `$ mkdir myjni`.
-1. Change to that directory: `$ cd myjni`
-1. Write Java code: `HelloJni.java`.  _package myjni_ declares the package name.
-1. Compile Java code: `$ javac HelloJni.java`.  It will generate `HelloJni.class`.
+1. Write Java code: `myjni/HelloJni.java`.  _package myjni_ declares the package name.
+1. Compile Java code: `$ javac myjni/HelloJni.java`.  It will generate `HelloJni.class`.
 1. Generate C header file: `$ javah HelloJni.class`.  It will generate `HelloJniCpp.h`.
 1. Write C++ implementations of functions: `HelloJniCppImpl.h` and `HelloJniCppImpl.cpp`.
 1. Implement Jni interface (in C language): `HelloJniCpp.c`.
