@@ -2,7 +2,9 @@
 Implementation of online tutorial[https://www3.ntu.edu.sg/home/ehchua/programming/java/JavaNativeInterface.html].
 
 ## Steps
-1. Write Java code: `HelloJni.java`. Functions with `native` means C/C++ implementations.
+1. Create directory for the java package: `$ mkdir myjni`.
+1. Change to that directory: `$ cd myjni`
+1. Write Java code: `HelloJni.java`.  _package myjni_ declares the package name.
 1. Compile Java code: `$ javac HelloJni.java`.  It will generate `HelloJni.class`.
 1. Generate C header file: `$ javah HelloJni.class`.  It will generate `HelloJniCpp.h`.
 1. Write C++ implementations of functions: `HelloJniCppImpl.h` and `HelloJniCppImpl.cpp`.
